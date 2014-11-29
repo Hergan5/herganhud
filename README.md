@@ -8,7 +8,7 @@ Description
 ===========
 
 
-Something I spend a 2 weeks or so, tried to make it as clean as possible, it includes a 6v6 and 16v16 scoreboard.
+Something I spend a 2 weeks or so, tried to make it as clean as possible, it includes a 6v6 and 12v12 scoreboard.
 You can easily customize it by changing colors in clientscheme.res and renaming extra files in resource/ui.
 
 Installation
