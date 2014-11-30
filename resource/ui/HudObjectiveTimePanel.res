@@ -4,17 +4,18 @@
     {
         "ControlName"        "CExLabel"
         "fieldName"                "ServerTimeLimitLabel"
-        "xpos"                        "310"
-        "ypos"                        "-1"
+        "xpos"                        "387"
+        "ypos"                        "20"
         "zpos"                        "-1"
         "wide"                        "80"
-        "tall"                        "20"
+        "tall"                        "17"
         "visible"                "1"
         "enabled"                "1"
         "labelText"                "%servertimeleft%"
-        "textAlignment"                "west"
-        "font"                        "MediumNumbers20"
+        "textAlignment"                "center"
+        "font"                        "MediumNumbers16"
         "fgcolor"		"White"
+		"bgcolor_override" "30 30 30 100"
     }
    "Time2BG"
     {

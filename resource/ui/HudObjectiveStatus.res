@@ -34,6 +34,7 @@
             "enabled"		"1"
             "textAlignment"		"center"
             "labelText"		"0:00"
+			"bgcolor_override" "30 30 30 180"
         }
 	}	
 }

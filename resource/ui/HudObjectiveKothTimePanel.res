@@ -71,7 +71,7 @@
             "wide"          "80"
             "tall"          "17"
             "fillcolor"		"Red"
-            "visible"		"1"
+            "visible"		"0"
             "enabled"		"1"
         }
         "BlueBG"
@@ -84,7 +84,7 @@
             "wide"          "80"
             "tall"          "17"
             "fillcolor"		"Blue"
-            "visible"		"1"
+            "visible"		"0"
             "enabled"		"1"
         }
 	"ActiveTimerBG"
