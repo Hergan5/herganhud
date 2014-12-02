@@ -95,8 +95,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		         Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		         Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"100"		         Linear 0.125 0.075
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Negative"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"Low"	        Accel 0.0 0.0

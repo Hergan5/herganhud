@@ -1882,7 +1882,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-64"	//c-52
+		"ypos"			"c-20"	//c-52
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
