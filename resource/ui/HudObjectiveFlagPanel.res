@@ -293,8 +293,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-105"
-		"ypos"			"r125"
+		"xpos"			"c-135"
+		"ypos"			"r105"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -336,8 +336,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-55"
-		"ypos"			"r125"
+		"xpos"			"c-25"
+		"ypos"			"r105"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"

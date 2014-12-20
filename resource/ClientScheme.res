@@ -490,7 +490,218 @@ Scheme
         //Crosshairs
 		
         
-        
+		"BroeselCrosshair7"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "7"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair8"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "8"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair9"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "9"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair12"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "12"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair14"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "14"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair16"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair20"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "20"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair22"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "22"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+
+		"BroeselCrosshair24"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "24"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshairOutline24"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "24"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
+		"BroeselCrosshair26"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "26"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair28"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "26"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair32"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "32"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair40"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "40"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair48"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "48"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair52"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "52"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair54"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "54"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair55"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "55"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair56"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "56"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair60"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "60"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"BroeselCrosshair72"
+		{
+			"1"
+			{
+				"name"		 "broeselhudCrosshairs"
+				"tall" 		 "72"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}        
 		"fogCrosshair"			//fog's crosshair
 		{
 			"1"
@@ -1461,6 +1672,17 @@ Scheme
                 "dropshadow"	"0"
 			}
 		}
+		ItemEffectMeterLabels
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}			
         "DeathNotice"
 		{
 			"1"
@@ -5920,7 +6142,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
+			"color"					"30 30 30 255"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -7067,5 +7289,10 @@ Scheme
 		    "font" "resource/fonts/Surface.otf"
 			"name" "Surface-Medium"
 		}
+		"26"
+		{
+		    "font" "resource/fonts/broeselhud crosshairs.ttf"
+			"name" "broeselhudCrosshairs"
+		}	
 	}
 }
