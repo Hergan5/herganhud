@@ -25,28 +25,735 @@
 		"class_ypos"				"40"
 		"class_xdelta"				"5"
 		"class_wide_min"			"60"
-		"class_wide_max"			"100"
+		"class_wide_max"			"60"
 		"class_tall_min"			"120"
-		"class_tall_max"			"200"
+		"class_tall_max"			"120"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
 		"itemcountcolor"			"WhiteS"
 		"itemcountcolor_noitems"	"114 114 114 255"
 	}
+	"CatalogCover" //covers catalog number
+    {
+      "ControlName" "ImagePanel"
+      "fieldName" "CatalogCover"
+      "xpos" "c40"
+      "ypos" "c95"
+      "zpos" "2"
+      "wide" "30"
+      "tall" "50"
+      "fillcolor" "GrayBG"
+      "visible" "1"
+      "enabled" "1"
+    }
+	"CustomScout"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomScout"
+		"xpos"			"c-415"
+		"ypos"			"c-137"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"SCOUT"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout scout"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomSoldier"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomSoldier"
+		"xpos"			"c-416"
+		"ypos"			"c-97"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"SOLDIER"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout soldier"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomPyro"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomPyro"
+		"xpos"			"c-416"
+		"ypos"			"c-57"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"PYRO"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout pyro"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomDemo"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomDemo"
+		"xpos"			"c-416"
+		"ypos"			"c-17"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"DEMOMAN"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout demoman"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomHeavy"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomHeavy"
+		"xpos"			"c-416"
+		"ypos"			"c27"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"HEAVY"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout heavy"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomEngie"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomEngie"
+		"xpos"			"c-416"
+		"ypos"			"c67"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"ENGINEER"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout engineer"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomMedic"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomMedic"
+		"xpos"			"c-416"
+		"ypos"			"c107"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"MEDIC"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout medic"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomSniper"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomSniper"
+		"xpos"			"c-416"
+		"ypos"			"c147"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"SNIPER"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout sniper"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomSpy"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomSpy"
+		"xpos"			"c-416"
+		"ypos"			"c187"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"SPY"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"loadout spy"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}	
+	"CustomBP"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomBP"
+		"xpos"			"c250"
+		"ypos"			"c-32"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"BACKPACK"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"backpack"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+
+	
+	"CustomCraft"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomCraft"
+		"xpos"			"c220"
+		"ypos"			"c0"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"CRAFT"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"east"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"crafting"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+
+	
+	"CustomCatalog"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomCatalog"
+		"xpos"			"c220"
+		"ypos"			"c32"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"CATALOG"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"east"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"armory"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+
+	
+	"CustomTrade"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomTrade"
+		"xpos"			"c220"
+		"ypos"			"c62"
+		"zpos"			"105"
+		"wide"			"200"
+		"tall"			"42"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"TRADE"
+		"font"			"HeavyCaps36"
+		"textAlignment"	"east"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "0"
+		"Command"		"trading"
+		
+		"fgcolor_override"		"WhiteS"
+		
+		// default style
+		"defaultFgColor_override" "WhiteS"
+        
+		// armed style
+		"armedFgColor_override" 	"Flavor"
+    
+		// depressed style    
+		"depressedFgColor_override" "WhiteS"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+		
 	
 	"scout"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-300"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -54,7 +761,7 @@
 		"Command"			"loadout scout"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		"activeimage"		"class_sel_sm_scout_red"
 		"inactiveimage"		"class_sel_sm_scout_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -64,14 +771,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-250"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -89,14 +796,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-200"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -115,14 +822,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-110"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -140,14 +847,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-60"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -165,14 +872,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c-10"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -191,14 +898,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c78"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -216,14 +923,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c128"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -241,14 +948,14 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c178"
+		"xpos"				"9999"
 		"ypos"				"120"
 		"zpos"				"6"
-		"wide"				"60"
+		"wide"				"0"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -267,11 +974,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-230"
-		"ypos"				"235"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"6"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -296,10 +1003,10 @@
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
 		"xpos"			"c-260"
-		"ypos"			"300"
+		"ypos"			"9999"
 		"zpos"			"7"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -310,11 +1017,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-95"
+		"xpos"				"9999"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
-		"tall"				"60"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -338,11 +1045,11 @@
 		"font"			"Regular10"
 		"labelText"		"CRAFTING"
 		"textAlignment"	"north"
-		"xpos"			"c-125"
+		"xpos"			"9999"
 		"ypos"			"300"
 		"zpos"			"7"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -352,11 +1059,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c35"
+		"xpos"				"9999"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
-		"tall"				"60"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -380,11 +1087,11 @@
 		"font"			"Regular10"
 		"labelText"		"STORE"
 		"textAlignment"	"north"
-		"xpos"			"c5"
+		"xpos"			"9999"
 		"ypos"			"300"
 		"zpos"			"7"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -394,11 +1101,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c160"
+		"xpos"				"9999"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
-		"tall"				"60"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -422,11 +1129,11 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"TRADING"
 		"textAlignment"	"north"
-		"xpos"			"c130"
+		"xpos"			"9999"
 		"ypos"			"300"
 		"zpos"			"7"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -442,10 +1149,10 @@
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"197"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"30"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -459,10 +1166,10 @@
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"220"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"30"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

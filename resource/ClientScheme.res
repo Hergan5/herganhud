@@ -56,12 +56,12 @@ Scheme
         
 		"Health"               "227 227 227 255"    //Normal health color
         
-        "Positive"             "18 127 220 255"     //Buffed HP    
+        "Positive"             "98 255 0 255"     //Buffed HP    
         "Negative"             "245 54 64 255"      //Low HP     
         
 		////CORE COLORS////
         
-        "Flavor"          "18 127 220 255"    //chosen team
+        "Flavor"          "40 40 40 255"    //chosen team
 		
 		"ButtonBG"              "107 107 107 255"        //Standard button color
 		"ButtonArmed"		    "54 54 54 255"		     //Armed color
@@ -251,11 +251,11 @@ Scheme
 		Replay.RenderDialog.BgColor							"GrayBG"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"ButtonBG"
+		Econ.Button.BgColor									"GrayBG"
 		Econ.Button.FgColor									"White"
 		Econ.Button.ArmedBgColor							"ButtonArmed"
 		Econ.Button.ArmedFgColor							"White"
-		Econ.Button.DepressedBgColor						"ButtonBG"
+		Econ.Button.DepressedBgColor						"GrayBG"
 		Econ.Button.DepressedFgColor						"White"
 		
 		Econ.Button.PresetDefaultColorFg					"White"
@@ -486,6 +486,22 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+        /////////////////////
+        //Respawn font
+		
+		
+		"Respawn"
+		{
+			"1"
+			{
+				"name"		 "HerganRespawn"
+				"tall" 		 "20"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+
+		
         /////////////////////
         //Crosshairs
 		
@@ -1149,6 +1165,36 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HeavyCaps32"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HeavyCaps26"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
+		"HeavyCaps36"
+		{
+			"1"
+			{
+				"name"		"HeavyCaps"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
         "HeavyCaps18"
 		{
 			"1"
@@ -7293,6 +7339,11 @@ Scheme
 		{
 		    "font" "resource/fonts/broeselhud crosshairs.ttf"
 			"name" "broeselhudCrosshairs"
-		}	
+		}
+        "27"
+        {
+            "font" "resource/fonts/HerganRespawn.otf"
+            "name" "HerganRespawn"
+        }			
 	}
 }
