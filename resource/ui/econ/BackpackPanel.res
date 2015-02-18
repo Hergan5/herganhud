@@ -47,7 +47,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 
 			"Button"
@@ -66,6 +66,15 @@
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+		        // default style
+		        "defaultFgColor_override" "WhiteS"
+        
+		        // armed style
+		        "armedFgColor_override" 	"Flavor"
+    
+		        // depressed style    
+		        "depressedFgColor_override" "WhiteS"				
 			}
 
 			"New"
@@ -376,8 +385,31 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c175"
-		"ypos"			"65"
+		"xpos"			"c-310"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"15"
+		"tall"			"218"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"PrevPageButtonInvsible"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButtonInvisible"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -392,33 +424,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
-	"CurPageLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%backpackpage%"
-		"textAlignment"	"center"
-		"xpos"			"c200"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "WhiteS"
+		"sound_depressed"	""
+		"sound_released"	""
+		"fgcolor_override" "Blank"
+		"alpha" "0"
 	}
-	
-	"NextPageButton"
+	"NextPageButtonInvisible"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"NextPageButton"
+		"fieldName"		"NextPageButtonInvisible"
 		"xpos"			"c245"
 		"ypos"			"65"
 		"zpos"			"1"
@@ -435,9 +449,55 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
+		"sound_depressed"	""
+		"sound_released"	""
+		"fgcolor_override" "Blank"
+		"alpha" "0"		
+	}		
+	
+	"CurPageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurPageLabel"
+		"font"			"HeavyCaps32"
+		"labelText"		"%backpackpage%"
+		"textAlignment"	"center"
+		"xpos"			"c-50"
+		"ypos"			"310"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"32"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "WhiteS"
+	}
+	
+	"NextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton"
+		"xpos"			"c292"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"15"
+		"tall"			"218"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+
 	
 	"DragToNextPageButton"
 	{
