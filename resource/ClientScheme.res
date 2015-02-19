@@ -56,7 +56,7 @@ Scheme
         
 		"Health"               "227 227 227 255"    //Normal health color
         
-        "Positive"             "98 255 0 255"     //Buffed HP    
+        "Positive"             "22 182 71 255"     //Buffed HP    
         "Negative"             "245 54 64 255"      //Low HP     
         
 		////CORE COLORS////
