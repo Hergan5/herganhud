@@ -78,7 +78,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -131,7 +131,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -184,7 +184,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -237,7 +237,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -290,7 +290,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -343,7 +343,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -396,7 +396,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -449,7 +449,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -502,7 +502,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -554,7 +554,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -609,7 +609,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -664,7 +664,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"
@@ -719,7 +719,7 @@
 		"defaultFgColor_override" "WhiteS"
         
 		// armed style
-		"armedFgColor_override" 	"Flavor"
+		"armedFgColor_override" 	"Blue"
     
 		// depressed style    
 		"depressedFgColor_override" "WhiteS"

@@ -10,13 +10,17 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		"tabPosition" "0"
+		"medal_width" "10"
 		"avatar_width"		"56"        // 42 for lower res
-		"name_width"		"64"
+		"name_width"		"60"			
 		"status_width"		"15"
 		"nemesis_width"		"14"
 		"class_width"		"15"
-		"score_width"		"24"
+		"score_width"		"22"
 		"ping_width"		"21"
+		"stats_width"		"25"
+		"killstreak_width"	"13"		
 	}
     
     "ServerTimeLeft" 
@@ -50,7 +54,7 @@
         if_mvm
         {
             "font"			"MediumNumbers10"
-            "fgcolor"			"Black"
+            "fgcolor"			"White"
             "textinsetx"	"-2"
             "use_proportional_insets" "1"
             "ypos"			"r11"
@@ -178,7 +182,7 @@
 		"zpos"			"2"
 		"wide"			"456"
 		"tall"			"30"
-		"fillcolor"		"BrightGray"
+		"fillcolor"		"DarkGray"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -412,7 +416,7 @@
 		"labelText"		"vs"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"xpos"			"-8"
+		"xpos"			"-15"
 		"ypos"			"r11"
         "zpos" "4"
 		"wide"			"57"
@@ -463,6 +467,7 @@
 		"autoresize"	"3"
 		"linespacing"	"13"
 		"textcolor"		"red"
+		"font" "Regular8"
 
 		if_mvm
 		{
@@ -595,6 +600,7 @@
 			"visible"		"0"
 		}
 	}
+	
 
 	"LocalPlayerDuelStatsPanel"
 	{
@@ -704,7 +710,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"Black"
+				"fgcolor"		"White"
 				"xpos"			"61"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -729,7 +735,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"Black"
+				"fgcolor"		"White"
 				"font"			"NoveMedium18"
 			}
 		}
@@ -776,7 +782,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"Black"
+				"fgcolor"		"White"
 				"xpos"			"44"
 				"ypos"			"0"
 				"zpos"			"7"
@@ -801,7 +807,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor"		"Black"
+				"fgcolor"		"White"
 				"font"			"NoveMedium18"
 			}
 		}		
@@ -859,13 +865,13 @@
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"26"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"visible"		"1"
 			"enabled"		"1"
 
 			if_mvm
 			{
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
                 "textAlignment"	"east"
 				"font"		"NoveMedium54"
 				"xpos"		"c-323"
@@ -880,7 +886,7 @@
 			"fieldName"		"DeathsLabel"
 			"font"			"NoveMedium24"
 			"labelText"		":"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"west"
 			"xpos"			"c-184"
 			"ypos"			"r34"
@@ -907,14 +913,14 @@
 			"zpos"			"3"
 			"wide"			"115"
 			"tall"			"26"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"visible"		"1"
 			"enabled"		"1"
 
 			if_mvm
 			{
                 "textAlignment"		"west"
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
 				"font"		"NoveMedium54"
 				"xpos"		"c-176"
 				"ypos"		"r170"
@@ -927,7 +933,7 @@
 			"fieldName"		"AssistsLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Assists:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r29"
@@ -940,7 +946,7 @@
 			if_mvm
 			{   
                 "textAlignment"		"west"
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-70"
@@ -953,7 +959,7 @@
 			"fieldName"		"Assists"
 			"font"			"NoveMedium8"
 			"labelText"		"%assists%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r29"
@@ -966,7 +972,7 @@
 			if_mvm
 			{
                 "textAlignment"		"east"
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-61"
@@ -979,7 +985,7 @@
 			"fieldName"		"CapturesLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Caps:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r21"
@@ -991,7 +997,7 @@
 
 			if_mvm
 			{
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
                 "tall"			"15"
 				"font"		"Medium9"
 				"xpos"		"c-70"
@@ -1004,7 +1010,7 @@
 			"fieldName"		"Captures"
 			"font"			"NoveMedium8"
 			"labelText"		"%captures%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r21"
@@ -1016,7 +1022,7 @@
 
 			if_mvm
 			{
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
                 "textAlignment"	"east"
 				"font"		"Medium9"
 				"xpos"		"c-61"
@@ -1030,7 +1036,7 @@
 			"fieldName"		"DefensesLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Defenses:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-185"
 			"ypos"			"r13"
@@ -1053,7 +1059,7 @@
 			"fieldName"		"Defenses"
 			"font"			"NoveMedium8"
 			"labelText"		"%defenses%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-103"
 			"ypos"			"r13"
@@ -1076,7 +1082,7 @@
 			"fieldName"		"DominationLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Dominations:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r21"
@@ -1099,7 +1105,7 @@
 			"fieldName"		"Domination"
 			"font"			"NoveMedium8"
 			"labelText"		"%dominations%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r21"
@@ -1122,7 +1128,7 @@
 			"fieldName"		"RevengeLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Revenges:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r13"
@@ -1145,7 +1151,7 @@
 			"fieldName"		"Revenge"
 			"font"			"NoveMedium8"
 			"labelText"		"%Revenge%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r13"
@@ -1168,7 +1174,7 @@
 			"fieldName"		"DestructionLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Destructions:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
 			"ypos"			"r29"
@@ -1191,7 +1197,7 @@
 			"fieldName"		"Destruction"
 			"font"			"NoveMedium8"
 			"labelText"		"%destruction%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c-23"
 			"ypos"			"r29"
@@ -1214,7 +1220,7 @@
 			"fieldName"		"HealingLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Healing:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r29"
@@ -1237,7 +1243,7 @@
 			"fieldName"		"Healing"
 			"font"			"NoveMedium8"
 			"labelText"		"%healing%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r29"
@@ -1261,7 +1267,7 @@
 			"fieldName"		"InvulnLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Ubers:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r21"
@@ -1284,7 +1290,7 @@
 			"fieldName"		"Invuln"
 			"font"			"NoveMedium8"
 			"labelText"		"%invulns%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r21"
@@ -1308,7 +1314,7 @@
 			"fieldName"		"HeadshotsLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Headshots:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r21"
@@ -1331,7 +1337,7 @@
 			"fieldName"		"Headshots"
 			"font"			"NoveMedium8"
 			"labelText"		"%headshots%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r21"
@@ -1355,7 +1361,7 @@
 			"fieldName"		"BackstabsLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Backstabs:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r29"
@@ -1378,7 +1384,7 @@
 			"fieldName"		"Backstabs"
 			"font"			"NoveMedium8"
 			"labelText"		"%backstabs%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r29"
@@ -1402,7 +1408,7 @@
 			"fieldName"		"TeleportsLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Teleports:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c-30"
 			"ypos"			"r13"
@@ -1425,7 +1431,7 @@
 			"fieldName"		"Teleports"
 			"font"			"NoveMedium8"
 			"labelText"		"%teleports%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c52"
 			"ypos"			"r13"
@@ -1449,7 +1455,7 @@
 			"fieldName"		"BonusLabel"
 			"font"			"NoveMedium8"
 			"labelText"		"Bonus:"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"xpos"			"c35"
 			"ypos"			"r13"
@@ -1472,7 +1478,7 @@
 			"fieldName"		"Bonus"
 			"font"			"NoveMedium8"
 			"labelText"		"%bonus%"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 			"textAlignment"	"west"
 			"xpos"			"c117"
 			"ypos"			"r13"
@@ -1506,7 +1512,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "Black"
+			"fgcolor" "White"
 		}
 		"Support"
 		{
@@ -1524,14 +1530,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" "Black"
+			"fgcolor" "White"
 		}
 		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
 			"font"			"NoveMedium8"
-			"fgcolor" "Black"	
+			"fgcolor" "White"	
 			"labelText"		"Damage:"
 			"textAlignment"	"east"
 			"xpos"			"c65"	[$WIN32]
@@ -1549,7 +1555,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
 			"font"			"NoveMedium8"
-			"fgcolor" "Black"
+			"fgcolor" "White"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
 			"xpos"			"c163"	[$WIN32]
@@ -1659,7 +1665,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 
 			if_mvm
 			{
@@ -1670,7 +1676,7 @@
                 "zpos"          "15"
                 "wide"			"270"
                 "tall"			"18"
-                "fgcolor"		"Black"
+                "fgcolor"		"White"
 			}	
 		}
 		"GameType"
@@ -1689,7 +1695,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"White"
 		}
 	}
 
